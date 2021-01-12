@@ -1,0 +1,25 @@
+package ReadTextFile;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+
+public class BufferedReaderExample {
+	public static void main(String[] args) {
+
+		String fileName = "/Users/pankaj/source.txt";
+		File file = new File(fileName);
+		FileInputStream fis = new FileInputStream(file);
+		InputStreamReader isr = new InputStreamReader(fis, cs);
+		BufferedReader br = new BufferedReader(isr);
+
+		String line;
+		while ((line = br.readLine()) != null) {
+			// process the line
+			System.out.println(line);
+		}
+		br.close();
+
+	}
+}

@@ -1,0 +1,5 @@
+package ReadFileToString;
+
+public class ReadFileUsingApacheCommonsIOFileUtils {
+
+}

@@ -1,0 +1,13 @@
+package CopyFile;
+
+import java.io.File;
+import java.io.IOException;
+
+public class CopyFileUsingJava7Files {
+	public static void main(String[] args) throws IOException {
+		File Sourcefile = new File("C:/Users/junaid/testSource.txt");
+		File Destinationfile = new File("C:/Users/junaid/testDestination3.txt");
+		copyFileUsingApacheCommonsIO(Sourcefile, Destinationfile);
+	}
+
+}

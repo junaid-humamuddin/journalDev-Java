@@ -1,0 +1,17 @@
+package ReadFileToString;
+
+public class ReadFileUsingBufferedReader {
+	
+	public static void main(String[] args) {
+		String fileName = "C:/Users/junaid/testSource.txt";
+		BufferedReaderReadLine br = new BufferedReaderReadLine();
+		
+	}
+
+}
+
+class BufferedReaderReadLine{
+	bufferedReaderReadLineMethod(String fileName){
+		
+	}
+}
